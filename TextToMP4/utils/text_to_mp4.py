@@ -10,7 +10,8 @@ change_settings({"IMAGEMAGICK_BINARY": "/usr/bin/convert"})
 
 def frame_maker_wrapper(text, video_width, video_height, duration):
     def make_frame(t):
-        text_clip = TextClip(text, fontsize=24, color='white', bg_color='black')
+        font_path = "/usr/share/fonts/dejavu/DejaVuSans-Bold.ttf"
+        text_clip = TextClip(text, fontsize=24, font=font_path, color='white', bg_color='black')
 
         text_width = text_clip.w
         x = video_width - int((video_width + text_width) * (t / duration))
