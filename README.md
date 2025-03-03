@@ -19,4 +19,4 @@ the following parameters:
 
 ## Example
 
-![Bot editor](https://github.com/Daniel-March-Portfolio/.github/blob/main/images/TextToMP4/mp4_example.mp4)
+![mp4_example](https://github.com/Daniel-March-Portfolio/.github/blob/main/images/TextToMP4/mp4_example.gif)
